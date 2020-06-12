@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="IPL visualization">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <link href="./styles.css" rel="stylesheet">
+    <title>
+        IPL visualization
+    </title>
+</head>
+
+<body>
+
+    <h1>IPL Dataset visualization</h1>
+
+    <div 
+    style="width: 1130px; height: 50px; margin: 0 auto; margin-top: 20px;margin-bottom: 30px; "
+    >
+    <div class="input-container">
+        <span class="label">Enter year: </span>
+        <input type="number" min="2008" max="2019" class="year-input" id="year">
+        <button class="year-input-button" onclick="hmtldata()">Submit</button>
+    </div>
+
+    <div id="bowlerEconomy"class="a" style="width: 1130px; height: 500px; margin: 50px auto 0px; overflow: hidden;"></div>
+    <div id="matchesPlayedPerYear" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="matchesWonByTeam"></div> <!--  style="min-width: 310px; height: 400px; margin: 0 auto"></div>  -->
+    <div id="extraRunsByEachTeamIn2016" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="topEconomicalBowlersIn2015" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    <div id="container" style="min-width: 310px; height: 400px; margin: 0 auto"></div>
+    
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+
+    <script src="./app.js"></script> 
+    <script src="./app1.js"></script> 
+    
+    
+
+    
+</body>
