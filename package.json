@@ -4,8 +4,8 @@
   "description": "ipl datset viz",
   "main": "index.js",
   "scripts": {
-    "test": "jest --coverage",
-    "start": "http-server"
+     "ipl": "node index.js",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
